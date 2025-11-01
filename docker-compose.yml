@@ -2,5 +2,6 @@ services:
   app:
     build: .
     command: bash start.sh
+    container_name: mirror-leech-telegram-bot
     restart: on-failure
     network_mode: "host"
